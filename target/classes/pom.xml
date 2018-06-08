@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>jserialize</name>
+    <name>JSerialize</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -94,14 +94,14 @@
 
         <resources>
             <resource>
-                <directory>/home/c131644/NetBeansProjects/jdeserialize</directory>
+                <directory>${basedir}</directory>
                 <filtering>true</filtering>
                 <includes>
                     <include>pom.xml</include>
                 </includes>
             </resource>
             <resource>
-                <directory>/home/c131644/NetBeansProjects/jdeserialize/src/main/java</directory>
+                <directory>${basedir}/src/main/java</directory>
                 <filtering>true</filtering>
                 <includes>
                     <include>**/*.java</include>
@@ -110,7 +110,7 @@
                 </includes>
             </resource>
             <resource>
-                <directory>/home/c131644/NetBeansProjects/jdeserialize/src/main/resources</directory>
+                <directory>${basedir}/src/main/resources</directory>
             </resource>
         </resources>
     </build>
